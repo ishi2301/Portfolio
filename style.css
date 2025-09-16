@@ -1,12 +1,14 @@
 
-body { 
+/* Global Styles */
+body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0;
   padding: 0;
   background: #f9f9f9;
   color: #333;
 }
 
+/* Header */
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -21,10 +23,12 @@ header p {
   color: #555;
 }
 
+/* Sections */
 section {
   background: #fff;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto; /* centers section blocks */
+  max-width: 900px;         /* consistent width */
   border-radius: 8px;
 }
 
@@ -33,10 +37,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Lists */
 ul {
   padding-left: 20px;
 }
 
+/* Footer */
 footer {
   text-align: center;
   font-size: 0.9rem;
@@ -44,6 +50,39 @@ footer {
   margin-top: 30px;
 }
 
+/* Education Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Skills Section */
+#skills h3 {
+  margin-top: 15px;
+  color: #444;
+}
+
+#skills ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* Responsive Media Queries */
 @media (max-width: 900px) {
   body {
     margin: 15px;
@@ -90,49 +129,29 @@ footer {
   p, li {
     font-size: 0.95rem;
   }
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-}
 
-thead {
-  background-color: #f0f0f0;
-}
-
-th, td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-tr:hover {
-  background-color: #f9f9f9;
-}
-
-@media (max-width: 600px) {
+  /* Responsive Table */
   table, thead, tbody, th, td, tr {
     display: block;
   }
-  
+
   thead tr {
     display: none;
   }
-  
+
   tr {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px;
   }
-  
+
   td {
     text-align: right;
     padding-left: 50%;
     position: relative;
   }
-  
+
   td::before {
     content: attr(data-label);
     position: absolute;
@@ -142,13 +161,3 @@ tr:hover {
     text-align: left;
   }
 }
-#skills h3 {
-  margin-top: 15px;
-  color: #444;
-}
-
-#skills ul {
-  margin-left: 20px;
-  margin-bottom: 15px;
-}
-
