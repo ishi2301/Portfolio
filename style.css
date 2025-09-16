@@ -142,4 +142,13 @@ tr:hover {
     text-align: left;
   }
 }
+#skills h3 {
+  margin-top: 15px;
+  color: #444;
+}
+
+#skills ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
 
