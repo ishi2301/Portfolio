@@ -1,5 +1,5 @@
 
-/* Global Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,7 +8,7 @@ body {
   color: #333;
 }
 
-/* Header */
+
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -23,12 +23,12 @@ header p {
   color: #555;
 }
 
-/* Sections */
+
 section {
   background: #fff;
   padding: 20px;
-  margin: 0 auto 20px auto; /* centers section blocks */
-  max-width: 900px;         /* consistent width */
+  margin: 0 auto 20px auto; 
+  max-width: 900px;         
   border-radius: 8px;
 }
 
@@ -37,12 +37,12 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Lists */
+
 ul {
   padding-left: 20px;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   font-size: 0.9rem;
@@ -50,7 +50,7 @@ footer {
   margin-top: 30px;
 }
 
-/* Education Table */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -71,7 +71,7 @@ tr:hover {
   background-color: #f9f9f9;
 }
 
-/* Skills Section */
+
 #skills h3 {
   margin-top: 15px;
   color: #444;
@@ -82,7 +82,7 @@ tr:hover {
   margin-bottom: 15px;
 }
 
-/* Responsive Media Queries */
+
 @media (max-width: 900px) {
   body {
     margin: 15px;
@@ -130,7 +130,7 @@ tr:hover {
     font-size: 0.95rem;
   }
 
-  /* Responsive Table */
+  
   table, thead, tbody, th, td, tr {
     display: block;
   }
